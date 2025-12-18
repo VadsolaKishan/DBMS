@@ -58,5 +58,5 @@ select * from tablename;
 --access specific column 
 Select JOB_ID,MAX_SAL from job;
 
---create duplicate table
+--create duplicate table and create new table JOB_SAL and two row add in table JOB_ID,MAX_SAL and show table select * from JOB_SAL; 
  Create Table JOB_SAL as select JOB_ID,MAX_SAL FROM job;
