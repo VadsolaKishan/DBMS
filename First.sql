@@ -52,4 +52,5 @@ desc table name
 -- for the display table 
 select * from tablename;
 
-
+--user input 
+ insert into job values('&id','&job_title','&min_sal','&max_sal');
