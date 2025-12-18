@@ -39,3 +39,7 @@ create table employees_1
        emp_id NUMBER PRIMARY KEY,
        email VARCHAR2(150) UNIQUE
   );
+
+-- disply the table which is create
+desc table name
+
