@@ -57,3 +57,6 @@ select * from tablename;
 
 --access specific column 
 Select JOB_ID,MAX_SAL from job;
+
+--create duplicate table
+ Create Table JOB_SAL as select JOB_ID,MAX_SAL FROM job;
