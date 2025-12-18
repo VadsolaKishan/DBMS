@@ -43,3 +43,13 @@ create table employees_1
 -- disply the table which is create
 desc table name
 
+-- for the insert data into table 
+ insert into tablename values(134 , 'ce' , 500 , 510);
+-- number must be without '' cort 
+-- name is must be in '' cort
+
+
+-- for the display table 
+select * from tablename;
+
+
