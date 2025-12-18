@@ -54,3 +54,6 @@ select * from tablename;
 
 --user input 
  insert into job values('&id','&job_title','&min_sal','&max_sal');
+
+--access specific column 
+Select JOB_ID,MAX_SAL from job;
